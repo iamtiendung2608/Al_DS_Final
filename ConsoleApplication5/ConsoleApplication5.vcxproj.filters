@@ -26,16 +26,10 @@
     <ClInclude Include="Processing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Insert.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Select.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="MainDatabase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Update.h">
+    <ClInclude Include="BuildProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -142,12 +142,10 @@
     <ClCompile Include="ConsoleApplication5.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Insert.h" />
+    <ClInclude Include="BuildProgram.h" />
     <ClInclude Include="MainDatabase.h" />
     <ClInclude Include="Processing.h" />
-    <ClInclude Include="Select.h" />
     <ClInclude Include="Student.h" />
-    <ClInclude Include="Update.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

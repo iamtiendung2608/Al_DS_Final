@@ -11,13 +11,6 @@ using namespace std;
 int main()
 {
 	StartSQL();
-	cout << setw(12) << left << "ID" << setw(12) << left << "Name"
-		<< setw(12) << left << "Age" << setw(12) << left << "Gender"<<endl;
-	cout << setw(12) << left << "----------------------------------------" << endl;
-	Student k("20110622", "Dung", 18, "Male");
-	Student k2("20110258", "Binh", 18, "Male");
-	Student k3("20110654", "Tien", 18, "Male");
-	cout << k<<k2<<k3;
 	return 0;
 }
 

@@ -1,39 +1,37 @@
-#ifndef Processing_H
+#pragma
 #include<string>
 #include<iostream>
 #include<sstream>
+#include"BuildProgram.h"
 using namespace std;
 void StartSQL(){
 	string command;
-
+	StudentInfo k;
 	while (true) {
-		cout << "Student=# ";
+		cout << '\n';
+		cout << "StudentInfo=# ";
 		getline(std::cin, command);
-		stringstream ss(command);
 		if (command._Equal("Exit Database"))
 			break;
 		else 
 		{
-			string startCommand;
-			ss >> startCommand;
-			if (startCommand._Equal("SELECT")) {
-				break;
+			if (command._Equal("SELECT")) {
+				Select_Database();
 			}
-			else if (startCommand._Equal("DELETE")) {
-
+			else if (command._Equal("DELETE")) {
+				Delete_Database();
 			}
-			else if (startCommand._Equal("UPDATE")) {
-
+			else if (command._Equal("UPDATE")) {
+				Update_Database();
+			}
+			else if (command._Equal("INSERT")) {
+				Insert_Database(k);
 			}
 			else {
-				cout << "Invalide Command" << endl;
+				cout << "Invalid Command" << endl;
 			}
 		}
 	}
 }
 
 
-
-
-
-#endif // !Processing_H
