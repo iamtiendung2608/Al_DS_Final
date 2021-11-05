@@ -1,0 +1,24 @@
+Save Data: (Luu file, Doc file chain file data to object)
+	+Read Data:
+	+Write Data:
+Command:(Build Enum) -- (Call Process)
+	Enum: Call Process Data
+		+Select(Default): Take Data
+			-WHERE
+			-Condition
+			-OrderBy(optional)
+		+Insert: 
+		+Update:
+		+Delete:
+		+Exit: 
+Object/ Database:(3 cai) 
+		+Data fields
+		+Input
+		+Output
+		+Check valid(map key khac nhau)
+Process/Algorithm:  (Using iterator)
+		+
+Data structure(if needed):
+
+(Advance):
+	More Command to Process Data (operator, Functions)

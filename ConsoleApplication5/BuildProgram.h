@@ -8,10 +8,10 @@ void Insert_Database(StudentInfo newStudent) {
 	std::cin >> newStudent;
 	cin.ignore();
 	if (Check(newStudent)) {
+		//Add Data
 		k.Insert(newStudent);
 		cout << "Insert into StudentInfo (ID, Name, Age, Gender)" << endl;
 		cout << '\n';
-
 	}
 	else {
 		cout << "Some of the attribute mustn't be null" << endl;
@@ -32,9 +32,15 @@ void Select_Database() {
 		<< setw(22) << left << "Age" << setw(22) << left << "Gender" << endl;
 	cout << setw(22) << left<< "----------------------------------------------------------------------------" << endl;
 	for (auto const& pair : all) {
-		std::cout << pair.second;
+		std::cout << pair.second << endl;
 	}
 	cout << '\n';
+}
+void Save_Database() {
+	k.Save();
+}
+void Read_Database() {
+	k.Read();
 }
 
 

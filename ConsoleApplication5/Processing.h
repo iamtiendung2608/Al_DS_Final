@@ -4,15 +4,23 @@
 #include<sstream>
 #include"BuildProgram.h"
 using namespace std;
+//Main Program
 void StartSQL(){
 	string command;
 	StudentInfo k;
+	// Build Command
 	while (true) {
 		cout << '\n';
 		cout << "StudentInfo=# ";
+		//String to lower case to chain command
+		//a class of command to process Database
+
 		getline(std::cin, command);
 		if (command._Equal("Exit Database"))
+		{
+			Save_Database();
 			break;
+		}
 		else 
 		{
 			if (command._Equal("SELECT")) {
@@ -32,6 +40,7 @@ void StartSQL(){
 			}
 		}
 	}
+	Read_Database();
 }
 
 

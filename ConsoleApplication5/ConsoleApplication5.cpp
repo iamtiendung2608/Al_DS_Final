@@ -10,6 +10,7 @@
 using namespace std;
 int main()
 {
+	//Start Program
 	StartSQL();
 	return 0;
 }
