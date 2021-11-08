@@ -52,7 +52,7 @@ public:
 	void Read() {
 		fstream file;
 		// -- between fields
-		file.open("data.txt", ios::in);
+		file.open("data.txt", ios::in);    
 		string k;
 		while (getline(file, k)) {
 

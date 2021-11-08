@@ -1,8 +1,6 @@
 #ifndef COMMAND_h
 #define COMMAND_H
 //Process Command
-
-
 /*
 * 
 * Select Data
@@ -26,15 +24,9 @@ Create Data{
 
 }
 
-
-
 Function(){
 
 	
 }
 */
-
-
-
-
 #endif // !COMMAND_h

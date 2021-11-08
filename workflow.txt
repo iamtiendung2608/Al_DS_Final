@@ -1,6 +1,6 @@
 Save Data: (Luu file, Doc file chain file data to object)
-	+Read Data:
-	+Write Data:
+	+Read Data: read line  string split  new object(fields) Luu vao data
+	+Write Data: write field by field "/"
 Command:(Build Enum) -- (Call Process)
 	Enum: Call Process Data
 		+Select(Default): Take Data
